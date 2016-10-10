@@ -14,8 +14,3 @@ print (perro2)
 d = {'clave1':23,'clave2':34}
 
 print (d)
-
-
-
-
-#

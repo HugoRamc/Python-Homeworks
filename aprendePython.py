@@ -17,3 +17,5 @@ print (d)
 
 myNewvar = input("Ingresa un dato para poder imprimirlo \n")
 print("El dato ingresado es: "+myNewvar)
+
+#no puedo imprimir el slash

@@ -14,3 +14,17 @@ print (perro2)
 d = {'clave1':23,'clave2':34}
 
 print (d)
+cont = 0;
+while True:
+    cont +=1
+    if cont == 5:
+        print ('ya salimos')
+        break
+    else:
+        print ('el contador va en: '+str(cont))
+
+print ("Esto se imprime siempre")
+
+
+for n in range(0,5)
+    print(n)

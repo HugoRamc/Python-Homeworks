@@ -1,5 +1,5 @@
 # este programa es para aprender python
-
+from arreglos import *
 monty = 23  # el perro es el que no hace nada
 perro = 24
 
@@ -26,5 +26,13 @@ while True:
 print ("Esto se imprime siempre")
 
 
-for n in range(0,5)
+for n in range(0,5):
     print(n)
+
+def saludar():
+    print("Hola")
+    
+saludar()
+
+persona1 = persona("ian")
+persona1.numeros()

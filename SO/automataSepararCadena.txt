@@ -1,0 +1,44 @@
+cad=""
+	lista = []
+	for cr in str(uso):
+		if cr=="b" and flag==0:
+			flag=1
+			continue
+		elif cr=="\\":
+			flag = 2
+		elif (cr == "n" and flag == 2):
+			lista.append(cad)
+			print(cad)
+			cad=""
+			flag=1
+			continue
+		elif cr=="t" and flag==2:
+			flag=1
+
+		elif (ord(cr)>65 and ord(cr)>90) or (ord(cr)>97 and ord(cr)<122) or (ord(cr)==46)or (ord(cr)==32) or (ord(cr)==58) or (ord(cr)==37) or (ord(cr)>=48 and ord(cr)<=57):
+			cad+=cr
+		else:
+			continue
+
+	if False:
+		cad=""
+		lista = []
+		for cr in str(uso):
+			if cr=="b" and flag==0:
+				flag=1
+				continue
+			elif cr=="\\":
+				flag = 2
+			elif (cr == "n" and flag == 2):
+				lista.append(cad)
+				print(cad)
+				cad=""
+				flag=1
+				continue
+			elif cr=="t" and flag==2:
+				flag=1
+
+			elif (ord(cr)>65 and ord(cr)>90) or (ord(cr)>97 and ord(cr)<122) or (ord(cr)==46)or (ord(cr)==32) or (ord(cr)==58) or (ord(cr)==37) or (ord(cr)>=48 and ord(cr)<=57):
+				cad+=cr
+			else:
+				continue
